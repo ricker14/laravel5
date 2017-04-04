@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('newRoute', function () {
 	return view('newRoute');
 });
+
+Route::get('brokenRoute', function () {
+	return response('This route is broken.', 426);
+	//return view('brokenRoute');
+});
