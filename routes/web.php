@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('route', function () {
-	//return view('newRoute');
-	return response('This route is supposed to be broken.', 426);
+	return view('newRoute');
+	//return response('This route is supposed to be broken.', 426);
 });
 
