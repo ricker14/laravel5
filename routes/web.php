@@ -17,7 +17,7 @@ Route::get('/', function () {
 });
 
 Route::get('route', function () {
-	//return view('newRoute');
-	return response('This route is supposed to be working.', 201);
+	return view('newRoute');
+	//return response('This route is supposed to be working.', 201);
 });
 
