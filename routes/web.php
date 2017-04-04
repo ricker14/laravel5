@@ -13,6 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
+	//return response('This route is supposed to be working.', 301);
 });
 
 Route::get('route', function () {
