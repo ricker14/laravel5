@@ -83,8 +83,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="newRoute">New Route</a>
-                    <a href="brokenRoute">Broken Route</a>
+                    <a href="route">Fixed Route</a>
                 </div>
             </div>
         </div>

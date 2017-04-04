@@ -15,11 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('newRoute', function () {
+Route::get('route', function () {
 	return view('newRoute');
+	//return response('This route is supposed to be broken.', 426);
 });
 
-Route::get('brokenRoute', function () {
-	return response('This route is supposed to be broken.', 426);
-	//return view('brokenRoute');
-});
