@@ -13,11 +13,10 @@
 
 Route::get('/', function () {
     return view('welcome');
-	//return response('This route is supposed to be working.', 201);
+    // Trying to get Jenkins to see the merge and then build.
 });
 
 Route::get('route', function () {
 	return view('newRoute');
-	//return response('This route is supposed to be working.', 201);
 });
 
