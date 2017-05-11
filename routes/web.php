@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-    // More testing for Jenkins
+    // Trying to get Jenkins to see the merge and then build.
 });
 
 Route::get('route', function () {
