@@ -13,11 +13,4 @@
 
 Route::get('/', function () {
     return view('welcome');
-    // Trying to get Jenkins to see the merge and then build.
 });
-
-Route::get('route', function () {
-	return view('newRoute');
-	// Using a post hook to tell jenkins about a change
-});
-
